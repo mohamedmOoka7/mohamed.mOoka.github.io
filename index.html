@@ -16,6 +16,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/style.css" />
+
+  <script type="text/javascript">
+    if (window.location.pathname === "/index.html") {
+      window.location.replace("/");  // إعادة توجيه المستخدم إلى الصفحة الرئيسية بدون index.html
+    }
+  </script>
 </head>
 <body>
 
@@ -130,35 +136,34 @@
       <h2 class="section-title">Featured Projects</h2>
       <div class="work-grid">
         <article class="work-card">
-  <div class="project-number">01</div>
-  <div class="work-content">
-    <h3 class="work-title">Kerberoasting – Blue Team DFIR Lab</h3>
+          <div class="project-number">01</div>
+          <div class="work-content">
+            <h3 class="work-title">Kerberoasting – Blue Team DFIR Lab</h3>
 
-    <p class="work-desc">
-      Blue Team investigation of a Kerberoasting attack in an Active Directory environment.
-      The case includes SIEM analysis using Splunk, PowerShell forensics, Prefetch timeline
-      reconstruction, and MITRE ATT&CK mapping.
-    </p>
+            <p class="work-desc">
+              Blue Team investigation of a Kerberoasting attack in an Active Directory environment.
+              The case includes SIEM analysis using Splunk, PowerShell forensics, Prefetch timeline
+              reconstruction, and MITRE ATT&CK mapping.
+            </p>
 
-    <div class="work-tech">
-      <span>Splunk</span>
-      <span>Kerberos</span>
-      <span>DFIR</span>
-      <span>PowerShell</span>
-      <span>Prefetch</span>
-      <span>MITRE ATT&CK</span>
-    </div>
+            <div class="work-tech">
+              <span>Splunk</span>
+              <span>Kerberos</span>
+              <span>DFIR</span>
+              <span>PowerShell</span>
+              <span>Prefetch</span>
+              <span>MITRE ATT&CK</span>
+            </div>
 
-    <a href="project-dfir.html" class="work-link">
-      View Investigation
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-           stroke="currentColor" stroke-width="2">
-        <path d="M5 12h14M12 5l7 7-7 7"/>
-      </svg>
-    </a>
-  </div>
-</article>
-
+            <a href="project-dfir.html" class="work-link">
+              View Investigation
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </article>
 
         <article class="work-card">
           <div class="project-number">02</div>
